@@ -1,0 +1,49 @@
+/* importing the normalize css*/
+@import "normalize.css";
+
+/*for small screens*/
+@media screen and (max-width: 600px){
+    /*first grid column*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        background-color:antiquewhite;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    /*second grid column*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: darkolivegreen;
+        padding: 10px;
+    }
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/*grid item format*/
+.grid-item{
+    background-color:floralwhite;
+    border: 3px solid darkgrey;
+    padding: 50px;
+    font-size: 25px;
+    text-align: right;
+    justify-content: center;
+}
+
+/*centering header*/
+h2{
+    text-align: center;
+}
+
+/*font*/
+
+.font{
+    font-family: 'Courier New', Courier, monospace;
+}
